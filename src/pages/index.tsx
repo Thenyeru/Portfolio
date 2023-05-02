@@ -184,11 +184,11 @@ export default function Home() {
         </p>
         <div className="px-10 pt-6 flex items-center">
   <AiFillPhone className="text-8xl pb-4 text-seaweed" />
-  <p className="text-2xl px-5 pb-10 text-columbia font-medium">(31)99149-0625</p>
+  <p className="text-xl px-5 pb-10 text-columbia font-medium">(31)99149-0625</p>
 </div>
         <div className="px-10 flex items-center sm:text-justify">
   <AiFillMail className="text-8xl pb-4 text-seaweed" />
-  <p className="text-2xl px-5 pb-10 text-columbia font-medium">nyeruartcontact@gmail.com</p>
+  <p className="text-xl px-5 pb-10 text-columbia font-medium">nyeruartcontact@gmail.com</p>
 </div>
         
       </div>
