@@ -60,13 +60,13 @@ export default function Home() {
     </div>
     <div className="mx-auto sm:ml-auto sm:mx-0">
       <div className="mx-auto bg-gradient-to-b from-gray-600 rounded-full w-100 h-100 relative overflow-hidden mt-10 md:h-96 md:w-96">
-        <Image src={deved} layout="fill" objectFit="cover"  />
+        <Image src={deved} layout="fill" objectFit="cover" alt={''}  />
       </div>
     </div>
   </div>
 </div>
         </section>
-        <section className='px-10' href="#features ">
+        <section className='px-10'>
           <div>
             <h3 className="text-3xl py-1 text-columbia text-black font-medium">Serviços que eu ofereço</h3>
             <p className="text-xl py-2 leading-8 text-columbia text-gray-800">
@@ -127,19 +127,15 @@ export default function Home() {
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg object-cover"
-                layout="responsive"
-                src={web1}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web1} alt={''}              />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web2} alt={''}              />
             </div>
         </div>
         <p className='py-10 text-columbia text-center font-medium text-2xl' >
@@ -148,21 +144,15 @@ export default function Home() {
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web3} alt={''}              />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web4} alt={''}              />
             </div>
             <div className='w-full py-10 text-center'>
               <p className=' text-columbia font-medium text-2xl' >
@@ -173,21 +163,15 @@ export default function Home() {
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web5} alt={''}              />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
+              className="rounded-lg object-cover"
+              layout="responsive"
+              src={web6} alt={''}              />
             </div>
         </div>
       
