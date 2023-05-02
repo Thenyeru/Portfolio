@@ -39,7 +39,7 @@ export default function Home() {
     <div className="text-center">
       <h2 className='text-5xl sm:text-8xl py-3 text-columbia font-burtons font-medium'>Nyeru</h2>
       <h3 className='text-2xl sm:text-4xl font-medium text-columbia p-3'>Desenvolvedor, Ilustrador, Modelador e Designer</h3>
-      <p className='text-base sm:text-2xl text-columbia pb-12 md:px-10 sm:px-7'> Desenvolvedor com ampla experiencia em design e modelagem 3D. Vasta experiencia trabalhando em sistemas de admnistração escolar. Conheça um pouco mais do meu trabalho nos exemplos abaixo</p>
+      <p className='text-base sm:text-2xl text-columbia pb-12 md:px-10 sm:px-7'> Como desenvolvedor com vasta experiência em design e modelagem 3D, possuo habilidades especializadas para a criação de sistemas de administração escolar. Ao longo de minha carreira, tenho trabalhado em diversas oportunidades nesta área, consolidando meu conhecimento em projetos de alta qualidade. Convido-o(a) a conhecer alguns exemplos de meu trabalho abaixo.</p>
       <div className="text-5xl sm:text-8xl flex justify-center gap-20 py-7 text-seaweed">
       <a href="https://twitter.com/NyeruArt" target="_blank" rel="noopener noreferrer">
         <div className="cursor-pointer">
@@ -70,7 +70,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 text-columbia text-black font-medium">Serviços que eu ofereço</h3>
             <p className="text-xl py-2 leading-8 text-columbia text-gray-800">
-             Eu crio soluçoes simples e organicas de desenvolvimento web e design, devido a minha experiencia artistica posso melhor prover a meus clientes e associados. Utilizando de ferramentas mais atuais do mercado. Com experiencia tambem no atendimento ao cliente e resolução de problemas, costumo desenvolver soluçoes simples e uteis para seu ambiente de trabalho
+             Com uma formação artística sólida e vasta experiência em desenvolvimento web e design, ofereço soluções simples e intuitivas para atender às necessidades de meus clientes e associados. Com conhecimento aprofundado das mais modernas ferramentas do mercado, sou capaz de implementar projetos de alta qualidade que atendam às expectativas dos clientes. Além disso, minha habilidade no atendimento ao cliente e resolução de problemas me permite desenvolver soluções úteis e eficientes para o ambiente de trabalho de meus clientes.
             </p>
             <p className="text-md text-columbia py-2 pb-11 leading-8 text-gray-800">
               Eu faço serviços variados de desenvolvimento, design de marcas e ate ensino e treinamento de alunos 
@@ -84,7 +84,7 @@ export default function Home() {
                 Nova identidade visual
               </h3>
               <p className='text-columbia'>
-                utilizando minhas habilidades de ilustração trarei vida a seus websites e a seu ambiente empresarial.
+                Utilizando minhas habilidades de ilustração trarei vida a seus websites e a seu ambiente empresarial.
               </p>
               <h4 className="py-4 font-medium text-white">Ferramentas de ilustração que uso</h4>
               <p className="text-columbia py-1">Adobe Illustrator</p>
