@@ -37,10 +37,10 @@ export default function Home() {
       <div className='p-5'>
   <div className="flex flex-col items-center sm:flex-row">
     <div className="text-center">
-      <h2 className='text-8xl py-3 text-columbia font-burtons font-medium'>Nyeru</h2>
-      <h3 className='text-4xl font-medium text-columbia p-3'>Desenvolvedor, Ilustrador, Modelador e Designer</h3>
-      <p className='text-2xl text-columbia pb-12 md:px-10 sm:px-7'> Desenvolvedor com ampla experiencia em design e modelagem 3D. Vasta experiencia trabalhando em sistemas de admnistração escolar. Conheça um pouco mais do meu trabalho nos exemplos abaixo</p>
-      <div className="text-8xl flex justify-center gap-20 py-7 text-seaweed">
+      <h2 className='text-5xl sm:text-8xl py-3 text-columbia font-burtons font-medium'>Nyeru</h2>
+      <h3 className='text-2xl sm:text-4xl font-medium text-columbia p-3'>Desenvolvedor, Ilustrador, Modelador e Designer</h3>
+      <p className='text-base sm:text-2xl text-columbia pb-12 md:px-10 sm:px-7'> Desenvolvedor com ampla experiencia em design e modelagem 3D. Vasta experiencia trabalhando em sistemas de admnistração escolar. Conheça um pouco mais do meu trabalho nos exemplos abaixo</p>
+      <div className="text-5xl sm:text-8xl flex justify-center gap-20 py-7 text-seaweed">
       <a href="https://twitter.com/NyeruArt" target="_blank" rel="noopener noreferrer">
         <div className="cursor-pointer">
           <AiFillTwitterCircle />
@@ -182,13 +182,13 @@ export default function Home() {
         <p className='text-6xl text-center pb-9 py-5 font-medium text-columbia'>
           Entre em contato
         </p>
-        <div className="px-10 pt-6 flex items-center">
-  <AiFillPhone className="text-8xl pb-4 text-seaweed" />
-  <p className="text-xl px-5 pb-10 text-columbia font-medium">(31)99149-0625</p>
+        <div className="px-5 sm:px-10 pt-6 flex items-center">
+  <AiFillPhone className="text-6xl sm:text-8xl pb-4 text-seaweed" />
+  <p className="text-2xl px-2 sm:px-6 pb-10 text-columbia font-medium">(31)99149-0625</p>
 </div>
-        <div className="px-10 flex items-center sm:text-justify">
-  <AiFillMail className="text-8xl pb-4 text-seaweed" />
-  <p className="text-xl px-5 pb-10 text-columbia font-medium">nyeruartcontact@gmail.com</p>
+        <div className="px-5 sm:px-10 flex items-center text-justify">
+  <AiFillMail className="text-6xl sm:text-8xl pb-4 text-seaweed" />
+  <p className="text-2xl px-2 sm:px-6 pb-10 text-columbia font-medium">nyeruartcontact@gmail.com</p>
 </div>
         
       </div>
