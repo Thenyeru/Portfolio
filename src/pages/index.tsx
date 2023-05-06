@@ -189,10 +189,30 @@ export default function Home() {
         <div className="px-5 sm:px-10 flex items-center text-justify">
   <AiFillMail className="text-6xl sm:text-8xl pb-4 text-seaweed" />
   <p className="text-2xl px-2 sm:px-6 pb-10 text-columbia font-medium">nyeruartcontact@gmail.com</p>
-          <form action="https://formsubmit.co/emanuelgoncalvescontato@gmail.com" method="POST">
-     <input type="text" name="name" required>
-     <input type="email" name="email" required>
-     <button type="submit">Send</button>
+          <form method="POST" action="https://formsubmit.co/emanuelgoncalvescontato@gmail.com">
+  <div class="mb-4">
+    <label class="block  font-bold mb-2" for="name">
+      Name
+    </label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Name">
+  </div>
+  <div class="mb-4">
+    <label class="block  font-bold mb-2" for="email">
+      Email
+    </label>
+    <input class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="Email">
+  </div>
+  <div class="mb-4">
+    <label class="block font-bold mb-2" for="message">
+      Message
+    </label>
+    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" placeholder="Message"></textarea>
+  </div>
+  <div class="flex items-center justify-center">
+    <button class=" text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+      Send Message
+    </button>
+  </div>
 </form>
 </div>
         
